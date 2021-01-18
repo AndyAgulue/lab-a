@@ -84,7 +84,7 @@ var testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
   [2, 3, 4].reduce((a, b) => a + b);
-var sumArr = (sum(a, b));
+const sumArr = (sum(a, b));
   
 
 var message = 'the sum of ' + 2 + 3 + 4 + ' is ' + sumArr + '.';
