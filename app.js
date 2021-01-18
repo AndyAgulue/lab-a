@@ -52,7 +52,7 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sumAndMultiply() { //eslint-disable-line
   var firstEq = sum(4, 7)
- // console.log(firstTwo[0], 'blah')
+
   var firstTotal = sum(firstEq[0], 5)
   var finalSum = firstTotal[0];
 
@@ -60,7 +60,7 @@ function sumAndMultiply() { //eslint-disable-line
   var SecondTotal = multiply(SecondEq[0], 5)
   var finalMultiply = SecondTotal[0];
 
-  var message1 = 4 + ' and ' + 7 + ' and ' + 5 + ' sum to ' + finalSum + '.';  
+  var message1 = 4 + ' and ' + 7 + ' and ' + 5 + ' is equal to ' + finalSum + '.';  
   var message2 ='The product of ' + 4 + ' and ' + 7 + ' and ' + 5 + ' is ' + finalMultiply + '.';
   
   return [finalSum, finalMultiply, message1, message2]
@@ -83,12 +83,19 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
+  [2, 3, 4].reduce((a, b) => a + b);
+var sumArr = (sum(a, b));
+  
 
+var message = 'the sum of ' + 2 + 3 + 4 + ' is ' + sumArr + '.';
+
+return [message]
 }
+
 
 // Here is the test for sumArray(); uncomment it to run it
 
-// testSumArray(testArray);
+ testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
